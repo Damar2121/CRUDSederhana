@@ -23,4 +23,10 @@ namespace CRUDSederhana
         {
             LoadData();
         }
-
+        private void ClearForm()
+        {
+            txtNIM.Clear();
+            txtNama.Clear();
+            txtEmail.Clear();
+            txtTelepon.Clear();
+            txtAlamat.Clear();
